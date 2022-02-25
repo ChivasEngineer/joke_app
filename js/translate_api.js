@@ -24,3 +24,7 @@ class TranslateApi {
         }
     }
 }
+export default function jokeByTranslated(sentences) {
+    const translatingByGoogleApi = new TranslateApi(sentences).getTranslatedJoke();
+    return translatingByGoogleApi;
+}

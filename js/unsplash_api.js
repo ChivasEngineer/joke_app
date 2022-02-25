@@ -25,3 +25,7 @@ class UnsplashApi {
         }
     }
 }
+export default function getPhoto() {
+    const createdPhoto = new UnsplashApi().getRandomPhoto();
+    return createdPhoto;
+}

@@ -16,3 +16,7 @@ class JokeApi {
         }
     }
 }
+export default function getJoke() {
+    const createdJoke = new JokeApi().getRandomJoke();
+    return createdJoke;
+}

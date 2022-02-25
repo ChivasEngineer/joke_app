@@ -1,1 +1,3 @@
-const screen = new Screen();
+import init from "./screen.js";
+
+init();
